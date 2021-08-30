@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="Content-Type-Script" content="text/javascript" />
+    <meta name="Content-Type-Style" content="text/css" />
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+    <meta name="revisit-after" content="7 days" />
+    <title>Geaccrediteerde nascholing voor de mondzorg - Quality Practice</title>
+    <meta name="keywords" lang="nl" content="Quality Practice biedt flexibele en topklinische nascholing voor tandartsen en mondhygiënisten." />
+    <meta name="description" content="mondhygiënisten, tandheelkunde, nascholing, quality practice, tandartsen" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/css/font-awesome.css" type="text/css" rel="stylesheet" />
+    <link href="/css/btns_v02.css" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|Source+Sans+Pro:300,400,700&display=swap" rel="stylesheet" type="text/css" />
+</head>
+
+<style>
+    html,
+    body {
+        width: 1200px;
+        height: max-content;
+        margin: 0 auto;
+        padding: 10px;
+        font-family: 'PT Sans', 'Source Sans Pro', sans-serif;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    .bg-certificate2 {
+        border: 1px solid black;
+    }
+    
+    .container-cer2 {
+        text-align: center;
+        background-image: url('https://www.qualitypractice.nl/qp/assets/images/certificaat_bg.png');
+        background-size: 100% 100%;
+        margin: auto;
+        height: 90vh;
+        background-repeat: no-repeat;
+    }
+    
+    .content-cer2 {
+        padding: 20px;
+    }
+    
+    .content_cert_text2 {
+        margin-bottom: 0px;
+        position: relative;
+        font-size: 1rem;
+        display: block;
+        top: 15vh;
+        padding: 20px;
+        width: auto;
+        height: auto;
+        text-anchor: middle;
+        line-height: 1.89vh;
+        text-overflow: clip;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    
+    @media screen and (max-height:800px) {
+        .content_cert_text2 {
+            font-size: 0.8rem;
+            transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+    }
+    
+    .handtekening2 {
+        background-image: url("https://www.qualitypractice.nl/qp/assets/images/handtekening_Nora.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 210px;
+        height: 140px;
+        margin: auto;
+        position: relative;
+    }
+    
+    @media screen and (max-height:800px) {
+        .handtekening2 {
+            width: 150px;
+            height: 100px;
+        }
+    }
+    
+    .aanhef_naam2 {
+        font-size: 40px;
+    }
+    
+    .datum {
+        font-size: 1rem;
+    }
+    
+    .einde_cursus {
+        font-size: 1rem;
+    }
+    
+    .nascholingspunten {
+        font-size: 20px;
+    }
+    
+    .kop {
+        font-size: 3vw;
+        color: #6a6a6a;
+        opacity: 0.5;
+    }
+    
+    .interventie {
+        font-size: 35px;
+    }
+    
+    .ondertext_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin: auto;
+    }
+    
+    .handtekening_container {
+        grid-area: 1 / 1 / 2 / 2;
+        border-top: 1px solid black;
+        width: 210px;
+        margin: auto;
+    }
+    
+    .datum_plaats_container {
+        grid-area: 1 / 2 / 2 / 3;
+        border-top: 1px solid black;
+        width: 210px;
+        margin: 0 auto;
+    }
+    
+    span.streep {
+        border: 1px solid black;
+        width: 210px;
+    }
+    
+    @media screen and (max-height:800px) {
+        .content_cert_text2 {
+            font-size: 0.8rem;
+            transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+    }
+    
+    @media print {
+        body {
+            width: 90%;
+            margin-left: -7px;
+            font-size: 1rem;
+        }
+    }
+    
+    @media print {
+        .ondertext_container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            margin: auto;
+        }
+    }
+    
+    @media print {
+        .handtekening_container {
+            grid-area: 1 / 1 / 2 / 2;
+            border-top: 1px solid black;
+            width: 210px;
+            margin: auto;
+        }
+    }
+    
+    @media print {
+        .datum_plaats_container {
+            grid-area: 1 / 2 / 2 / 3;
+            border-top: 1px solid black;
+            width: 210px;
+            margin: 0 auto;
+        }
+    }
+    
+    @media print {
+        html,
+        body {
+            width: 95%;
+            height: max-content;
+            margin: 0 auto;
+            padding: 15px;
+            font-family: 'PT Sans', 'Source Sans Pro', sans-serif;
+        }
+    }
+
+    @media print {
+        .content_cert_text2 {
+    margin-bottom: 0px;
+    position: relative;
+    font-size: 1rem;
+    display: block;
+    top: 15vh;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    text-anchor: middle;
+    line-height: 1.89vh;
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+
+
+    }
+}
+
+
+</style>
+
+<body>
+    <div class="bg-certificate2">
+        <div class="container-cer2">
+            <div class="header-cer"></div>
+            <div class="header-image">
+            </div>
+            <div class="content-cer2">
+                <div class="content_cert_text2">
+                    </br>
+                    <h2 class="kop">CERTIFICAAT</h2>
+                    </br>
+                    </br>
+                    <p>hierbij verklaren wij dat</p>
+                    <h2 class="aanhef_naam2">Acta test THK lid </h2>
+
+                    <p class="datum">op 20-7-2021</p>
+                    </br>
+
+                    </br>
+                    <p>de kennistoets</p>
+                    <h2 class="interventie">Kennistoets: Muziek in de Tandheelkunde</h2>
+                    <p class="einde_cursus">met goed gevolg heeft afgelegd</p>
+                    <br>
+
+                    <p>en hiermee</p>
+                    <p class="nascholingspunten"><strong>3 accreditatiepunten</strong></p>
+                    <p class="gehaald">heeft gehaald</p>
+                    <br>
+
+                    <br>
+                    <div class="ondertext_container">
+                        <div class="handtekening_container">
+                            <p>namens ACTA Dental Education<br /> Mr. Nora de Vries - directeur</p>
+                            <div class="handtekening2"></div>
+                        </div>
+                        <div class="datum_plaats_container">
+                            <p>Amsterdam, 26-8-2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-cer footer-tand"></div>
+        </div>
+
+        <form name="filterform" id="filterform" action="certificaat.asp" method="POST" target="_blank">
+            <input type="hidden" name="maak_pdf" value="1">
+            <input type="hidden" name="dnvl_id" value="10314">
+        </form>
+    </div>
+</body>
+
+</html>
